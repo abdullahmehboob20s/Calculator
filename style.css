@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:  120vh;
+    background-color: rgb(226, 226, 226);
+}
+.main{
+    /* border: 1px solid gray; */
+    padding: 40px 55px;
+    width: 35%;
+    
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow:  inset 4px 4px 10px rgb(93, 93, 93),
+                 inset -7px -7px 10px white,
+                  4px 4px 10px rgb(93, 93, 93),
+                  -7px -7px 10px white;
+}
+.main1{
+    width: 100%;
+    margin-top: 30px;
+    font-size: 30px;
+    height: 50px;
+    color: gray;
+    background-color: transparent;
+    border: none;
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+button{
+    font-size: 30px;
+    width: 80px;
+    height: 60px;
+    color: gray;
+    border: none;
+    border-radius: 3px;
+    background-color: transparent;
+    box-shadow:  inset 3px 3px 10px rgb(93, 93, 93),
+    inset -7px -7px 20px white;
+    margin-top: 5px;
+}
+button:active{
+    box-shadow: inset 5px 5px 10px gray;
+    border: none;
+    outline: none;
+    font-size: 28px;
+}
+button:focus{
+    border: none;
+    outline: none;
+}
+.main12{
+    width: 100%;
+    height: 60px;
+    padding: 15px 30px;
+    font-size: 32px;
+    color: gray;
+    box-shadow:  3px 3px 10px rgb(93, 93, 93),
+    -7px -7px 20px white;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background-color: transparent;
+}
+.main12:focus{
+    box-shadow:  inset 3px 3px 10px rgb(93, 93, 93),
+    inset -7px -7px 20px white;
+    border: 1px solid gray;
+    outline: none;
+}
+.parent1{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    flex-direction: column;
+}
+
+.wi{
+    width: 100%;
+}
+.wi1{
+    width: 100%;
+    margin-top: 5px;
+}
+.cla1{
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom:70px ;
+}
+.cal{
+    text-align: center;
+    font-size: 70px;
+    letter-spacing: 5px;
+    color: rgb(226, 226, 226);
+    text-shadow: 4px 4px 7px rgb(44, 44, 44) , -4px -4px 5px white ;
+}
